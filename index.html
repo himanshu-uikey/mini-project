@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tester</title>
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Typing Speed Tester</h1>
+            <p>Test your typing speed and accuracy</p>
+        </header>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="stat-box">
+                <h2 id="time">60s</h2>
+                <p>Time</p>
+            </div>
+
+            <div class="stat-box">
+                <h2 id="wpm">0</h2>
+                <p>Words Per Minute</p>
+            </div>
+
+            <div class="stat-box">
+                <h2 id="accuracy">0%</h2>
+                <p>Accuracy</p>
+            </div>
+        </section>
+
+        <!-- Text Display Section -->
+        <section class="text-section">
+            <h3>Text to Type:</h3>
+            <p id="textDisplay">
+                Click "Start" to begin the test.
+            </p>
+        </section>
+
+        <!-- Input Area -->
+        <section class="input-section">
+            <h3>Your Input:</h3>
+            <textarea 
+                id="inputText" 
+                placeholder="Start typing here..." 
+                rows="6" 
+                cols="50"
+                disabled>
+            </textarea>
+        </section>
+
+        <!-- Buttons -->
+        <section class="buttons">
+            <button id="startBtn">Start Test</button>
+            <button id="resetBtn">Reset</button>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 Typing Speed Tester Project</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
